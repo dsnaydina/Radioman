@@ -135,9 +135,9 @@ class RadioTest {
         Radio radio = new Radio();
         radio.setMaxVolume(10);
         radio.setMinVolume(0);
-        radio.setVolume(6);
+        radio.setVolume(5);
         radio.turnDownVolume();
-        assertEquals(5, radio.getVolume());
+        assertEquals(4, radio.getVolume());
     }
 
     @Test
